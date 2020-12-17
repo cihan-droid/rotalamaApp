@@ -45,8 +45,8 @@ class _HaritaState extends State<Harita> {
   List<LatLng> noktalar;
   GoogleMap map =
       GoogleMap(initialCameraPosition: CameraPosition(target: LatLng(0, 0)));
-  direction.GoogleMapsDirections directions = direction.GoogleMapsDirections(
-      apiKey: "AIzaSyC2TRVqnMgCx5b2pFm3Cn88io8lsp6NGu4");
+  direction.GoogleMapsDirections directions =
+      direction.GoogleMapsDirections(apiKey: "");
   @override
   void initState() {
     super.initState();
